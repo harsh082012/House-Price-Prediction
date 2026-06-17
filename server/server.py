@@ -7,9 +7,9 @@ app = FastAPI(title="Bangalore Home Price Prediction API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_origins=["https://house-price-prediction-1-rck8.onrender.com"],
+    allow_origins=["https://house-price-prediction-1-rck8.onrender.com"],
+    allow_origins=["https://house-price-prediction-1-rck8.onrender.com"],
 )
 
 class PredictionRequest(BaseModel):
