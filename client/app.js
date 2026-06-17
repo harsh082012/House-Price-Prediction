@@ -28,7 +28,7 @@ function getBathValue() {
     var estPrice = document.getElementById("uiEstimatedPrice");
   
   
-    var url = "http://127.0.0.1:5000/predict_home_price"; //Use this if you are NOT using nginx which is first 7 tutorials
+    var url = "https://house-price-prediction-q0vx.onrender.com"; //Use this if you are NOT using nginx which is first 7 tutorials
     // var url = "/api/predict_home_price"; // Use this if  you are using nginx. i.e tutorial 8 and onwards
   
     $.post(url, {
